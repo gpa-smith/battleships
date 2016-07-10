@@ -1,7 +1,7 @@
 from random import randint
 #define playing board
 board = []
-
+#create 5x5 playing board
 for x in range(5):
     board.append(["O"] * 5)
 #format board appearance, separate 0's with spaces
